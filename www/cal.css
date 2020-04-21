@@ -3,11 +3,11 @@
     text-align: center;
     width: 220px;
     color: #f1f1f1;
-    border: solid black 2px;
+    border: dotted black 2px;
 }
 
 input[type="button"] {
-    background-color: red;
+    background-color: rgb(230, 255, 5);
     color: black;
     border: solid black 2px;
     width: 100%
@@ -16,9 +16,19 @@ input[type="button"] {
 input[type="text"] {
     background-color: white;
     border: solid black 2px;
-    width: 100%
+    width: 100%;
 }
 
 .navbar-dark {
     background-color: #512DA8;
+}
+
+/* .container {
+    border: dotted white 2px;
+} */
+
+table {
+    border: dotted rgb(196, 28, 28) 2px;
+    width: inline;
+    background-color: aqua;
 }
